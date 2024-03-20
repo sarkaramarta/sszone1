@@ -1,0 +1,100 @@
+.top-doc {
+    h2 {
+        color: #276a7b;
+        font-weight: 700;
+    }
+    h4 {
+        color: #b1b1b1;
+    }
+    .carousel {
+        position: relative;
+        transition: ease 1s !important;
+        .carousel-inner {
+            transition: ease 1s;
+            .carousel-width {
+                width: 90%;
+                margin: 0 auto;
+                .card-show {
+                    &.hidden {
+                        @media screen and (max-width: 1080px) {
+                            display: none;
+                        }
+                    }
+                    .card-custom {
+                        background-color: #cce3e1;
+                        .card-img-top {
+                            width: 100%;
+                        }
+                        .card-body {
+                            text-align: left;
+                            .heading-div {
+                                
+                                .card-title {
+                                    margin-top: 20px;
+                                    font-size: 28px;
+                                    display: inline;
+                                }
+                                i {
+                                    display: inline;
+                                    float: right;
+                                    margin-top: 10px;
+                                    z-index: 555;
+                                } 
+                            }
+                            
+                            .card-text {
+                                margin-top: 20px;
+                                color: #616060;
+                                margin-bottom: 20px;
+                            }
+                            .custom-btn {
+                                text-decoration: none;
+                                color: white;
+                                background-color: #276a7b;
+                                padding: 5px 25px;
+                                border-radius: 15px;
+                                font-size: 22px;
+                                margin-top: 30px;
+                            }
+                            
+                            i {
+                                display: inline;
+                                
+                                z-index: 555;
+                                margin-right: 50px;
+                                &.bi-star-fill {
+                                    color: rgb(218, 155, 40);
+                                    margin-right: 0;
+                                }
+                            } 
+                            h6 {
+                                display: inline;
+                                float: right;
+                                margin-top: 10px;
+                                margin-right: 50px ;
+                            }
+                        }
+                    }
+                }
+                
+                
+            }
+        }
+        .carousel-custom {
+            
+            .arrow {
+                position: absolute;
+                color: black;
+                font-size: 40px;
+                
+                &.arrow-prev {
+                    left: -10PX;
+                }
+                &.arrow-next {
+                    right: -10PX;
+                }
+            } 
+        }
+    }
+    
+}

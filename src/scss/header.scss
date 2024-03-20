@@ -1,0 +1,54 @@
+.NavBar {
+    background-color:#007569;
+    .navbar {
+        background-color:#007569;
+    }
+}
+.doctor_text {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.custom_nav_link {
+    flex-grow: 0;
+    
+    @media screen and (max-width= 500px) {
+        flex-grow: 1;
+    }
+}
+.nav-search-icon {
+    background-color: white !important;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    padding: 0 10px;
+}
+.search_custom {
+    width: 300px;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    font-size: 14px;
+}
+.nav-item {
+    @media screen and (max-width: 1080px) {
+        text-align: left !important;
+    }
+    a {
+     color: white !important;
+     padding: 0 !important;
+     margin: 0 10px;
+     &:hover {
+        border-bottom: 2px solid white;
+     }
+        
+    } 
+    button {
+        background-color: white;
+        border: 0;
+        margin-top: 1px;
+        padding: 1px 15px;
+        border-radius: 5px;
+    }
+    
+ }
+ 
