@@ -1,0 +1,83 @@
+.top-doc h2 {
+  color: #276a7b;
+  font-weight: 700;
+}
+.top-doc h4 {
+  color: #b1b1b1;
+}
+.top-doc .carousel {
+  position: relative;
+  transition: ease 1s !important;
+}
+.top-doc .carousel .carousel-inner {
+  transition: ease 1s;
+}
+.top-doc .carousel .carousel-inner .carousel-width {
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1080px) {
+  .top-doc .carousel .carousel-inner .carousel-width .card-show.hidden {
+    display: none;
+  }
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom {
+  background-color: #cce3e1;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-img-top {
+  width: 100%;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-body {
+  text-align: left;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-body .heading-div .card-title {
+  margin-top: 20px;
+  font-size: 28px;
+  display: inline;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-body .heading-div i {
+  display: inline;
+  float: right;
+  margin-top: 10px;
+  z-index: 555;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-body .card-text {
+  margin-top: 20px;
+  color: #616060;
+  margin-bottom: 20px;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-body .custom-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #276a7b;
+  padding: 5px 25px;
+  border-radius: 15px;
+  font-size: 22px;
+  margin-top: 30px;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-body i {
+  display: inline;
+  z-index: 555;
+  margin-right: 50px;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-body i.bi-star-fill {
+  color: rgb(218, 155, 40);
+  margin-right: 0;
+}
+.top-doc .carousel .carousel-inner .carousel-width .card-show .card-custom .card-body h6 {
+  display: inline;
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.top-doc .carousel .carousel-custom .arrow {
+  position: absolute;
+  color: black;
+  font-size: 40px;
+}
+.top-doc .carousel .carousel-custom .arrow.arrow-prev {
+  left: -10PX;
+}
+.top-doc .carousel .carousel-custom .arrow.arrow-next {
+  right: -10PX;
+}/*# sourceMappingURL=top_doc.css.map */

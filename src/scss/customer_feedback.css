@@ -1,0 +1,111 @@
+.customer-div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.customer-div .cutomer-head {
+  text-align: left;
+  font-size: 30px;
+  color: #276a7b;
+}
+.customer-div .customer-para {
+  color: #646464;
+  text-align: left;
+  width: 330px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 756px) {
+  .customer-div .customer-para {
+    margin-bottom: 80px;
+  }
+}
+.customer-div .custom-cutomer-div {
+  border-right: 2px solid rgba(92, 91, 91, 0.493);
+  padding: 0 0 0 80px;
+}
+@media screen and (max-width: 1080px) {
+  .customer-div .custom-cutomer-div.hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 756px) {
+  .customer-div .custom-cutomer-div {
+    padding: 15px;
+  }
+}
+.customer-div .custom-cutomer-div .image-div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #276a7b;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+.customer-div .custom-cutomer-div .image-div .customer-img {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 100%;
+  transform: scale(1.5);
+}
+.customer-div .custom-cutomer-div .customer-name {
+  text-align: left;
+  color: #276a7b;
+  font-size: 22px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 756px) {
+  .customer-div .custom-cutomer-div .customer-name {
+    text-align: center;
+  }
+}
+.customer-div .custom-cutomer-div .customer-review {
+  width: 75%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+@media screen and (max-width: 756px) {
+  .customer-div .custom-cutomer-div .customer-review {
+    width: 100%;
+    text-align: center;
+  }
+}
+.customer-div .custom-cutomer-div .review-star {
+  width: 70%;
+}
+@media screen and (max-width: 756px) {
+  .customer-div .custom-cutomer-div .review-star {
+    width: 100%;
+  }
+}
+.customer-div .custom-cutomer-div .review-star i {
+  color: rgb(255, 166, 0);
+  float: right;
+}
+@media screen and (max-width: 756px) {
+  .customer-div .custom-cutomer-div .review-star i {
+    float: none;
+  }
+}
+.customer-div .carousel-custom {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.customer-div .carousel-custom .arrow {
+  position: absolute;
+  top: -380px;
+  color: black;
+  right: 0;
+}
+.customer-div .carousel-custom .arrow.arrow-prev {
+  right: 200px;
+  border: 1px solid black;
+  padding: 5px 20px;
+}
+.customer-div .carousel-custom .arrow.arrow-next {
+  right: 100px;
+  border: 1px solid black;
+  padding: 5px 20px;
+}/*# sourceMappingURL=customer_feedback.css.map */

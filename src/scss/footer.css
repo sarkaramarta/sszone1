@@ -1,0 +1,54 @@
+.footer-div {
+  margin-top: 30px;
+  background-color: black;
+  width: 100%;
+  position: relative;
+}
+.footer-div .container {
+  color: white;
+}
+.footer-div .container .row .doc-logo {
+  margin-top: 30px;
+  text-align: left;
+}
+.footer-div .container .row .footer-text {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.footer-div .container .row .copyright-text {
+  font-size: 12px;
+  text-align: left;
+}
+.footer-div .container .row .footer-link ul {
+  margin-right: 30px;
+  display: flex;
+  list-style: none;
+  float: right;
+}
+@media screen and (max-width: 756px) {
+  .footer-div .container .row .footer-link ul {
+    flex-direction: column;
+    float: left;
+    text-align: left;
+    padding: 0;
+  }
+}
+.footer-div .container .row .footer-link ul li {
+  margin-left: 20px;
+}
+@media screen and (max-width: 1080px) {
+  .footer-div .container .row .footer-link ul li {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 756px) {
+  .footer-div .container .row .footer-link ul li {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=footer.css.map */

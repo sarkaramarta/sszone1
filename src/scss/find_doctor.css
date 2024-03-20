@@ -1,0 +1,168 @@
+.banner {
+  width: 100%;
+  max-height: 100vh;
+}
+@media screen and (max-width: 756px) {
+  .banner {
+    margin-bottom: 200px;
+  }
+}
+.banner .container .banner-heading {
+  text-align: left;
+  color: #007569;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 756px) {
+  .banner .container .banner-heading {
+    font-size: 25px;
+  }
+}
+.banner .container .banner-form {
+  margin-top: 50px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.103);
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1080px) {
+  .banner .container .banner-form {
+    width: 100%;
+  }
+}
+.banner .container .banner-form .banner-form-head {
+  font-size: 28px;
+  text-align: left;
+}
+.banner .container .banner-form form {
+  display: flex;
+  flex-direction: column;
+}
+.banner .container .banner-form form label {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.banner .container .banner-form form select {
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.178);
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+.banner .container .banner-form form input {
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.178);
+  border: none;
+  padding: 5px 10px;
+}
+.banner .container .banner-form form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 0;
+  color: white;
+  background-color: #007569;
+  border-radius: 10px;
+}
+.banner .container .banner-form form button:hover {
+  color: #007569;
+  background-color: white;
+  border: 1px solid #007569;
+  transition: ease-out 0.5s;
+}
+.banner .container .banner-image-div {
+  height: 100%;
+  position: relative;
+}
+@media screen and (max-width: 756px) {
+  .banner .container .banner-image-div {
+    display: none;
+  }
+}
+.banner .container .banner-image-div .banner-doc-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin: 20px auto;
+}
+@media screen and (max-width: 1080px) {
+  .banner .container .banner-image-div .banner-doc-img {
+    width: 130%;
+  }
+}
+.banner .container .banner-image-div .happy_patient {
+  position: absolute;
+  bottom: 30px;
+  right: 70px;
+}
+@media screen and (max-width: 1080px) {
+  .banner .container .banner-image-div .happy_patient {
+    bottom: 100px;
+    right: 10px;
+  }
+}
+.banner .container .banner-image-div .happy_patient .circle {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.178);
+  position: relative;
+}
+.banner .container .banner-image-div .happy_patient .circle .inner-circle-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner .container .banner-image-div .happy_patient .circle .inner-circle-text h5 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.banner .container .banner-image-div .happy_patient .circle .inner-circle-text p {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 600;
+}
+.banner .container .banner-image-div .happy_patient .circle .banner-patient1 {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banner .container .banner-image-div .happy_patient .circle .banner-patient2 {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+}
+.banner .container .banner-image-div .happy_patient .circle .banner-patient3 {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+}
+.banner .container .banner-image-div .happy_patient .circle .banner-patient4 {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  border-radius: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=find_doctor.css.map */
